@@ -39,9 +39,9 @@ const speak = () => {
       console.log("Done Speaking ...");
     };
 
-    speakText.onerror = e => {
+    /*speakText.onerror = e => {
       console.error("Something Went Wrong ...");
-    };
+    };*/
     const selectedVoice = voiceSelect.selectedOptions[0].getAttribute(
       "data-name"
     );
